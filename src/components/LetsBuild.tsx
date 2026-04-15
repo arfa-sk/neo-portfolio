@@ -14,7 +14,7 @@ export default function LetsBuild() {
           letterSpacing: '-0.05em',
           marginBottom: '48px'
         }}>
-          LET'S <br /> BUILD
+          LET&apos;S <br /> BUILD
         </h2>
         <p style={{ 
           fontSize: 'clamp(1.5rem, 4vw, 2rem)', 

@@ -36,7 +36,7 @@ export default function ContactPage() {
             fontFamily: 'var(--font-headline)',
             letterSpacing: '-0.05em'
           }}>
-            Let's Build <br />
+            Let&apos;s Build <br />
             <span style={{ color: '#b40065', fontStyle: 'italic' }}>Something</span> <br /> 
             Beautiful
           </h1>
@@ -229,7 +229,6 @@ export default function ContactPage() {
            .contact-grid { grid-template-columns: 1fr !important; }
         }
       `}</style>
-      <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
     </main>
   );
 }

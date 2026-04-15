@@ -77,7 +77,7 @@ export default function AboutPage() {
             <div>
               <h2 style={{ fontFamily: 'var(--font-headline)', fontWeight: 900, fontSize: '2.5rem', textTransform: 'uppercase', marginBottom: '32px' }}>Code to Confection</h2>
               <p style={{ fontSize: '1.75rem', lineHeight: 1.4, color: '#5b3f48', marginBottom: '48px' }}>
-                I build software like a master pâtissier constructs a croquembouche. It's not just about the structural integrity—it's about the <span style={{ backgroundColor: '#ffd9e3', padding: '0 8px', fontWeight: 700 }}>visual rhythm</span>, the tactile response, and the soul behind the pixels.
+                I build software like a master pâtissier constructs a croquembouche. It&apos;s not just about the structural integrity—it&apos;s about the <span style={{ backgroundColor: '#ffd9e3', padding: '0 8px', fontWeight: 700 }}>visual rhythm</span>, the tactile response, and the soul behind the pixels.
               </p>
             </div>
             <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
@@ -107,7 +107,7 @@ export default function AboutPage() {
           </div>
 
           <div style={{ gridColumn: 'span 4', backgroundColor: 'white', border: '4px solid black', boxShadow: '8px 8px 0px 0px rgba(0,0,0,1)', padding: '32px', display: 'flex', alignItems: 'center' }}>
-            <p style={{ fontSize: '1.25rem', fontWeight: 500, fontStyle: 'italic', lineHeight: 1.3 }}>"We have enough functional apps. We need more digital poetry that actually works."</p>
+            <p style={{ fontSize: '1.25rem', fontWeight: 500, fontStyle: 'italic', lineHeight: 1.3 }}>&quot;We have enough functional apps. We need more digital poetry that actually works.&quot;</p>
           </div>
         </section>
 
@@ -138,14 +138,14 @@ export default function AboutPage() {
           <div style={{ display: 'flex', flexDirection: 'column', gap: '48px' }}>
             <div style={{ backgroundColor: '#fff0f5', border: '4px solid black', padding: '40px', boxShadow: '8px 8px 0px 0px rgba(0,0,0,1)' }}>
               <p style={{ fontSize: '1.25rem', lineHeight: 1.6, marginBottom: '32px' }}>
-                My journey didn't start in a sterile office. It started in the studio—surrounded by charcoal, oil paints, and the pursuit of perfect composition. When I moved into engineering, I didn't leave the artist behind; I gave her better tools.
+                My journey didn&apos;t start in a sterile office. It started in the studio—surrounded by charcoal, oil paints, and the pursuit of perfect composition. When I moved into engineering, I didn&apos;t leave the artist behind; I gave her better tools.
               </p>
               <p style={{ fontSize: '1.25rem', lineHeight: 1.6 }}>
-                Today, I specialize in bridging the gap between high-level brand strategy and deep technical execution. I don't just write code; I engineer experiences that resonate on a visceral level.
+                Today, I specialize in bridging the gap between high-level brand strategy and deep technical execution. I don&apos;t just write code; I engineer experiences that resonate on a visceral level.
               </p>
             </div>
             <div style={{ position: 'relative', padding: '48px 32px' }}>
-              <div style={{ position: 'absolute', top: 0, left: 0, fontSize: '8rem', color: 'rgba(180,0,101,0.1)', fontWeight: 900, userSelect: 'none' }}>"</div>
+              <div style={{ position: 'absolute', top: 0, left: 0, fontSize: '8rem', color: 'rgba(180,0,101,0.1)', fontWeight: 900, userSelect: 'none' }}>&quot;</div>
               <p style={{ position: 'relative', zIndex: 1, fontFamily: 'var(--font-headline)', fontWeight: 900, fontSize: '2.5rem', textTransform: 'uppercase', letterSpacing: 'tighter' }}>
                 I design for the people who notice the <span style={{ color: '#b40065' }}>spacing between the letters</span> and the speed of the transition.
               </p>
@@ -203,7 +203,6 @@ export default function AboutPage() {
       </div>
 
       <Footer />
-      <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
     </main>
   );
 }

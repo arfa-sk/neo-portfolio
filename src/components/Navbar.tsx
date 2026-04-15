@@ -103,7 +103,7 @@ export default function Navbar() {
           e.currentTarget.style.boxShadow = '4px 4px 0px 0px rgba(0,0,0,0.5)';
         }}
         >
-          Let's Build
+          Let&apos;s Build
         </Link>
       </div>
       <style jsx>{`

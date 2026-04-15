@@ -239,7 +239,7 @@ export default function ProjectsPage() {
         }} className="md:flex-row">
           <div style={{ maxWidth: '576px' }}>
             <h2 style={{ fontSize: '3.75rem', lineHeight: 1, marginBottom: '24px' }}>READY TO BUILD <span className="pink-text">THE FUTURE?</span></h2>
-            <p style={{ fontSize: '1.25rem', fontWeight: 700, fontStyle: 'italic' }}>Let's collaborate on your next high-impact digital project.</p>
+            <p style={{ fontSize: '1.25rem', fontWeight: 700, fontStyle: 'italic' }}>Let&apos;s collaborate on your next high-impact digital project.</p>
           </div>
           <button className="btn md:w-auto" style={{ 
             backgroundColor: '#FF1493', 

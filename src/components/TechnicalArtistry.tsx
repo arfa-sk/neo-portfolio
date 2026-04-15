@@ -87,7 +87,7 @@ export default function TechnicalArtistry() {
               maxWidth: '550px',
               fontWeight: 500
             }}>
-              I build software that doesn't just function—it resonates. My approach blends industrial-grade engineering with editorial design aesthetics, creating products that are as robust as they are beautiful.
+              I build software that doesn&apos;t just function—it resonates. My approach blends industrial-grade engineering with editorial design aesthetics, creating products that are as robust as they are beautiful.
             </p>
           </div>
         </div>
@@ -156,7 +156,6 @@ export default function TechnicalArtistry() {
           .responsive-grid { grid-template-columns: 1fr !important; }
         }
       `}</style>
-      <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
     </section>
   );
 }

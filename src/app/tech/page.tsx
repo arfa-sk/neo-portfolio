@@ -81,7 +81,7 @@ export default function TechPage() {
               <span className="material-symbols-outlined" style={{ fontSize: '48px', color: '#b40065' }}>web</span>
             </div>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px' }}>
-              {["REACT 18+", "TYPESCRIPT", "NEXT.JS", "TAILWIND CSS", "FRAMER MOTION", "REDUX TOOLKIT", "THREE.JS", "WEB COMPONENTS"].map((tag, i) => (
+              {["REACT 18+", "TYPESCRIPT", "NEXT.JS", "TAILWIND CSS", "FRAMER MOTION", "REDUX TOOLKIT", "THREE.JS", "WEB COMPONENTS"].map((tag) => (
                 <span key={tag} style={{ 
                   padding: '8px 16px', 
                   border: '2px solid black', 
@@ -223,7 +223,6 @@ export default function TechPage() {
       </div>
 
       <Footer />
-      <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
     </main>
   );
 }

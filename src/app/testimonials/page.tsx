@@ -101,7 +101,7 @@ export default function TestimonialsPage() {
             <div style={{ position: 'relative', zIndex: 10 }}>
               <span className="material-symbols-outlined" style={{ color: '#b40065', fontSize: '64px', marginBottom: '32px', fontVariationSettings: "'FILL' 1" }}>star</span>
               <blockquote style={{ fontSize: 'clamp(2.5rem, 6vw, 5rem)', fontWeight: 900, lineHeight: 0.9, letterSpacing: '-0.05em', marginBottom: '48px', textTransform: 'uppercase' }}>
-                "ARFA DOESN'T JUST WRITE CODE; HE ARCHITECTS EXPERIENCES THAT <span style={{ backgroundColor: 'black', color: 'white', padding: '0 16px', display: 'inline-block' }}>DEFINE BRANDS.</span>"
+                &quot;ARFA DOESN&apos;T JUST WRITE CODE; HE ARCHITECTS EXPERIENCES THAT <span style={{ backgroundColor: 'black', color: 'white', padding: '0 16px', display: 'inline-block' }}>DEFINE BRANDS.</span>&quot;
               </blockquote>
               <div style={{ display: 'flex', gap: '24px', alignItems: 'center', paddingTop: '40px', borderTop: '4px solid black' }}>
                 <div style={{ width: '80px', height: '80px', border: '4px solid black', boxShadow: '4px 4px 0px 0px #000', backgroundColor: 'white', overflow: 'hidden' }}>
@@ -119,7 +119,7 @@ export default function TestimonialsPage() {
           <section style={{ gridColumn: 'span 4', backgroundColor: 'white', border: '4px solid black', padding: '32px', boxShadow: '8px 8px 0px 0px #000', height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
             <div>
               <blockquote style={{ fontSize: '2.5rem', fontWeight: 900, fontStyle: 'italic', color: '#b40065', lineHeight: 1, letterSpacing: '-0.05em', marginBottom: '32px' }}>
-                "HE BROKE THE GRID AND REBUILT IT BETTER."
+                &quot;HE BROKE THE GRID AND REBUILT IT BETTER.&quot;
               </blockquote>
               <p style={{ borderLeft: '4px solid black', paddingLeft: '16px', fontSize: '1rem', lineHeight: 1.6, marginBottom: '32px', color: '#5b3f48' }}>
                 Working with Arfa was a lesson in modern aesthetics. He pushed our brand further than we thought possible while maintaining rigorous technical standards.
@@ -135,7 +135,7 @@ export default function TestimonialsPage() {
           <section style={{ gridColumn: 'span 5', backgroundColor: '#ffdada', border: '4px solid black', padding: '40px', boxShadow: '8px 8px 0px 0px #000' }}>
             <div style={{ backgroundColor: '#b40065', color: 'white', padding: '8px 16px', border: '4px solid black', boxShadow: '4px 4px 0px 0px #000', width: 'fit-content', fontWeight: 900, fontSize: '0.875rem', textTransform: 'uppercase', marginBottom: '32px' }}>Highly Recommended</div>
             <blockquote style={{ fontSize: '2rem', fontWeight: 700, lineHeight: 1.2, letterSpacing: '-0.02em', marginBottom: '32px' }}>
-              "The integration of brutalist aesthetics with high-performance engineering is something I've rarely seen executed this flawlessly."
+              &quot;The integration of brutalist aesthetics with high-performance engineering is something I&apos;ve rarely seen executed this flawlessly.&quot;
             </blockquote>
             <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
                <div style={{ width: '48px', height: '4px', backgroundColor: 'black' }}></div>
@@ -156,7 +156,7 @@ export default function TestimonialsPage() {
             </div>
             <div style={{ backgroundColor: '#b40065', border: '4px solid black', padding: '24px', boxShadow: '8px 8px 0px 0px #000', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', color: 'white' }}>
               <blockquote style={{ fontSize: '1.75rem', fontWeight: 700, textTransform: 'uppercase', lineHeight: 1, marginBottom: '24px' }}>
-                "Absolute precision in every single pixel."
+                &quot;Absolute precision in every single pixel.&quot;
               </blockquote>
               <p style={{ fontFamily: 'monospace', fontWeight: 900, fontSize: '0.75rem' }}>David Zhang</p>
             </div>
@@ -166,7 +166,7 @@ export default function TestimonialsPage() {
           <section style={{ gridColumn: 'span 6', backgroundColor: '#09090b', color: 'white', border: '4px solid black', padding: '48px', boxShadow: '8px 8px 0px 12px #b40065' }}>
             <span className="material-symbols-outlined confectionery-float-delayed" style={{ color: '#b40065', fontSize: '72px', marginBottom: '32px', display: 'inline-block' }}>electric_bolt</span>
             <blockquote style={{ fontSize: '3rem', fontWeight: 900, textTransform: 'uppercase', fontStyle: 'italic', letterSpacing: '-0.05em', lineHeight: 1, marginBottom: '48px' }}>
-              "ARFA IS THE ENGINEER YOU HIRE WHEN THE PROBLEM IS <span style={{ color: '#b40065' }}>IMPOSSIBLE.</span>"
+              &quot;ARFA IS THE ENGINEER YOU HIRE WHEN THE PROBLEM IS <span style={{ color: '#b40065' }}>IMPOSSIBLE.</span>&quot;
             </blockquote>
             <div>
               <p style={{ fontFamily: 'monospace', fontSize: '1.25rem', fontWeight: 900, color: '#b40065', textTransform: 'uppercase' }}>Elena Petrov</p>
@@ -178,10 +178,10 @@ export default function TestimonialsPage() {
           <section style={{ gridColumn: 'span 6', backgroundColor: '#ffd9e3', border: '4px solid black', padding: '48px', boxShadow: '12px 12px 0px 0px #000', position: 'relative' }}>
             <div style={{ position: 'absolute', top: '16px', right: '16px', fontSize: '0.75rem', fontWeight: 900, textTransform: 'uppercase', letterSpacing: '0.2em', opacity: 0.4 }}>FEEDBACK_REF_2024</div>
             <blockquote style={{ fontSize: '4rem', fontWeight: 900, textTransform: 'uppercase', lineHeight: 1, marginBottom: '40px' }}>
-              "FAST. BOLD. RELENTLESS."
+              &quot;FAST. BOLD. RELENTLESS.&quot;
             </blockquote>
             <p style={{ fontSize: '1.25rem', fontWeight: 700, lineHeight: 1.4, marginBottom: '48px' }}>
-              "Our conversion rates jumped by 40% after the redesign. The UI is polarizing in the best way—it makes people look."
+              &quot;Our conversion rates jumped by 40% after the redesign. The UI is polarizing in the best way—it makes people look.&quot;
             </p>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
               <div>
@@ -263,7 +263,6 @@ export default function TestimonialsPage() {
           animation: float 8s ease-in-out infinite 1s;
         }
       `}</style>
-      <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
     </main>
   );
 }

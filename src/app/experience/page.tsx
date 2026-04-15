@@ -177,7 +177,7 @@ export default function ExperiencePage() {
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '64px', fontSize: 'clamp(1.25rem, 3vw, 1.5rem)', fontStyle: 'italic', opacity: 0.9, lineHeight: 1.6 }}>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
                 <p>Code is not just logic; it is a physical structure. We build systems that resist decay by embracing strict constraints and unapologetic transparency.</p>
-                <p>Perfection is found in the friction between high-performance backends and high-fidelity frontends. We do not compromise on the "Saccharine Avant-Garde."</p>
+                <p>Perfection is found in the friction between high-performance backends and high-fidelity frontends. We do not compromise on the &quot;Saccharine Avant-Garde.&quot;</p>
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
                 <p>Borders define boundaries. Systems without boundaries are destined for collapse. We celebrate the edges, the frames, and the hard-stops.</p>
