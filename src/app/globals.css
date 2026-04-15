@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800;900&family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --primary: #b40065;
+  --primary-container: #e10080;
+  --on-primary: #ffffff;
+  --background: #fff8f8;
+  --surface: #fff8f8;
+  --surface-variant: #eddfe4;
+  --on-surface: #211a1d;
+  --on-surface-variant: #5b3f48;
+  --primary-fixed: #ffd9e3;
+  --on-primary-fixed-variant: #8d004e;
+  --surface-container-lowest: #ffffff;
+  --surface-container-low: #fff0f5;
+  --surface-container: #f9eaef;
+  --surface-container-high: #f3e4e9;
+  --surface-container-highest: #eddfe4;
+  --secondary-container: #ffb6c1;
+  --primary-fixed-dim: #ffb0ca;
+  --pink-hot: #FF1493;
+  
+  --font-headline: 'Space Grotesk', sans-serif;
+  --font-body: 'Be Vietnam Pro', sans-serif;
+  
+  --border-width: 4px;
+  --spacing-scale: 8px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--on-surface);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+}
+
+::selection {
+  background-color: var(--primary-container);
+  color: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, .uppercase-label {
+  font-family: var(--font-headline);
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  line-height: 0.9;
+}
+
+.uppercase-label {
+  letter-spacing: 0.1em;
+  font-size: 0.875rem;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.neo-border {
+  border: var(--border-width) solid black;
+}
+
+.neo-shadow {
+  box-shadow: 8px 8px 0px 0px rgba(0,0,0,1);
+}
+
+.neo-shadow-lg {
+  box-shadow: 12px 12px 0px 0px rgba(0,0,0,1);
+}
+
+.pink-text {
+  color: var(--primary);
+}
+
+.bg-pink {
+  background-color: var(--pink-hot);
+}
+
+.bg-pink-container {
+  background-color: var(--primary-container);
+}
+
+.btn {
+  font-family: var(--font-headline);
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  border: var(--border-width) solid black;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn-secondary {
+  background-color: white;
+  color: black;
+}
+
+.btn:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px 0px rgba(0,0,0,1);
+}
+
+.btn:active {
+  transform: translate(4px, 4px);
+  box-shadow: none;
+}
+
+.glossy-icon {
+  background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.4), transparent);
+  box-shadow: inset -2px -2px 8px rgba(0,0,0,0.2), 4px 4px 0px 0px rgba(0,0,0,1);
+}
+
+/* Custom Utilities */
+.mix-blend-luminosity {
+  mix-blend-mode: luminosity;
+}
+
+.editorial-text-mask {
+  -webkit-text-stroke: 1px black;
+  color: transparent;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+}
